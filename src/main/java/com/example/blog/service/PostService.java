@@ -44,7 +44,7 @@ public class PostService {
 
     public PostResponse get(Long id) {
         Post post = postRepository.findById(id).orElseThrow(PostNotFound::new);
-        System.out.println("hello");
+        System.out.println("hello1");
         PostResponse postResponse = PostResponse.builder().id(post.getId()).title(post.getTitle()).content(post.getContent()).build();
 
         /*
