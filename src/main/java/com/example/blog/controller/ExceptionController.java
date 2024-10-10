@@ -24,6 +24,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
  * 2024-10-02           njy            최초 생성
  * </pre>
  */
+
 @RestControllerAdvice
 public class ExceptionController {
 
